@@ -1,0 +1,54 @@
+body{
+    background: gainsboro;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+
+button{
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 180px;
+    
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+} 
+
+
+i{
+    font-size: 70px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: lightcyan;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
